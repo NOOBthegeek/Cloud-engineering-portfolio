@@ -1,0 +1,14 @@
+# Day 3 - Updating a Live Cloud Website
+
+## What I Did
+I upgraded my website using HTML and CSS and redeployed it to AWS S3.
+
+## Skills Learned
+- HTML
+- CSS
+- Updating live websites
+- Redeployment workflow
+- Troubleshooting 404 errors
+
+## Challenge Solved
+I got a 404 error after replacing my website file and fixed the deployment issue.
