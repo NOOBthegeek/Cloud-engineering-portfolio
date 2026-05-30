@@ -1,0 +1,13 @@
+# Day 2 - First Cloud Deployment
+
+Today I deployed my first website using AWS S3 Static Website Hosting.
+
+Skills learned:
+- AWS S3
+- Static Website Hosting
+- Bucket Permissions
+- Public Access Policies
+- Debugging deployment issues
+
+Challenge solved:
+I accidentally named my file index,html instead of index.html and fixed the issue.
