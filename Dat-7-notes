@@ -1,0 +1,19 @@
+# Day 7 - Linux on AWS EC2
+
+## Accomplishments
+
+- Launched an EC2 instance
+- Connected using EC2 Instance Connect
+- Used Linux commands:
+  - whoami
+  - pwd
+  - ls
+  - touch
+  - echo
+  - cat
+- Created my first Linux file
+
+## What I Learned
+
+Linux servers are the foundation of cloud infrastructure.
+Cloud engineers manage servers, files, networking, and applications through the command line.
