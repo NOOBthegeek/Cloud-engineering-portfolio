@@ -1,0 +1,17 @@
+# Day 13 - Linux File Search & System Information
+
+## Commands Practiced
+
+find
+df -h
+free -h
+uname -a
+whoami
+
+## What I Learned
+
+- How to find files using find
+- How to check disk space
+- How to check memory usage
+- How to view system information
+- How to identify the current Linux user
