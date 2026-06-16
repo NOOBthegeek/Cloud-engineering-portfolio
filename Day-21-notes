@@ -1,0 +1,82 @@
+Day 21 - Networking Fundamentals
+
+Commands Executed
+
+Test Internet Connectivity
+
+ping google.com
+
+Result:
+
+* Successfully reached google.com
+* 0% packet loss
+* Average latency ~3.45 ms
+
+Find Public IP Address
+
+curl ifconfig.me
+
+Result:
+
+13.48.57.57
+
+DNS Lookup
+
+nslookup google.com
+
+Result:
+
+* IPv4 Address: 172.217.19.238
+* IPv6 Address: 2a00:1450:400f:805::200e
+
+View Listening Ports
+
+ss -tuln
+
+Open ports observed:
+
+* TCP 22 (SSH)
+* TCP 80 (HTTP)
+
+Key Concepts Learned
+
+Ping
+
+Used to test network connectivity and measure response time between systems.
+
+DNS
+
+DNS translates domain names such as google.com into IP addresses.
+
+Public vs Private IP
+
+Private IP:
+172.31.40.80
+
+Public IP:
+13.48.57.57
+
+Listening Ports
+
+Port 22:
+
+* SSH remote access
+
+Port 80:
+
+* HTTP web traffic
+
+Summary
+
+Successfully verified:
+
+* Internet connectivity
+* DNS resolution
+* Public IP address
+* Open network ports on the EC2 instance
+
+Environment:
+
+* AWS EC2
+* Ubuntu Linux
+* Region: eu-north-1
