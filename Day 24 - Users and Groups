@@ -1,0 +1,27 @@
+# Day 24 - Users and Groups
+
+## Commands Learned
+
+- whoami
+- id
+- cat /etc/passwd | head
+- cat /etc/group | head
+- groups
+- sudo useradd testuser
+- sudo passwd testuser
+- sudo userdel testuser
+
+## What I Learned
+
+Linux uses users and groups to manage access to files and system resources.
+
+Each user has a unique User ID (UID), and groups help organize permissions for multiple users.
+
+I learned how to view user accounts, inspect group information, create a user, assign a password, and remove a user.
+
+## Key Concepts
+
+- Users identify people or services on a system.
+- Groups simplify permission management.
+- Every user has a UID and belongs to one or more groups.
+- Cloud engineers manage users to control server access.
