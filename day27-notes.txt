@@ -1,0 +1,18 @@
+Day 27 - Networking and Remote Access
+
+Commands learned:
+sudo systemctl status ssh
+sudo ss -tulpn
+sudo netstat -tulpn
+ping google.com
+curl ifconfig.me
+sudo ufw status
+sudo ufw allow 22/tcp
+sudo ufw enable
+
+What I learned:
+- SSH allows secure remote server management.
+- Port 22 is used for SSH.
+- Firewalls control network access.
+- Open ports determine which services are reachable.
+- UFW is a common Linux firewall.
