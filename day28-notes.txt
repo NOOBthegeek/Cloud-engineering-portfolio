@@ -1,0 +1,22 @@
+Day 28 - Web Servers and Hosting
+
+Commands learned:
+
+sudo systemctl status httpd
+cd /var/www/html
+ls -la
+cat index.html
+sudo nano /var/www/html/index.html
+sudo systemctl restart httpd
+curl ifconfig.me
+sudo ss -tulpn | grep :80
+
+What I learned:
+
+- Apache is a web server.
+- Websites are stored in /var/www/html.
+- Port 80 serves HTTP traffic.
+- Apache serves website files to browsers.
+- Updating index.html updates the website.
+- EC2 can host static websites.
+
