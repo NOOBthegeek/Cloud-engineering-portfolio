@@ -1,0 +1,11 @@
+Internet
+   │
+   ▼
+Security Group
+   │
+   ▼
+EC2 Instance
+   │
+Apache Web Server
+   │
+Website
