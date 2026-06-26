@@ -1,0 +1,21 @@
+Day 30 - AWS IAM Fundamentals
+
+Topics learned:
+
+- Identity and Access Management (IAM)
+- IAM Users
+- IAM Groups
+- IAM Policies
+- IAM Roles
+- Principle of Least Privilege
+- Root User vs IAM User
+
+What I learned:
+
+- IAM controls access to AWS resources.
+- Users represent individuals.
+- Groups simplify permission management.
+- Policies define allowed and denied actions.
+- Roles provide temporary permissions to AWS services.
+- The root account should not be used for everyday tasks.
+- Security is improved by granting only the permissions required.
