@@ -1,0 +1,19 @@
+Day 31 - AWS EC2 Security Groups
+
+Topics learned:
+
+- Security Groups
+- Inbound Rules
+- Outbound Rules
+- Common Ports
+- Stateful Firewalls
+
+What I learned:
+
+- Security Groups protect EC2 instances.
+- Inbound rules control incoming traffic.
+- Outbound rules control outgoing traffic.
+- SSH uses port 22.
+- HTTP uses port 80.
+- HTTPS uses port 443.
+- Security Groups are stateful, meaning return traffic is automatically allowed.
