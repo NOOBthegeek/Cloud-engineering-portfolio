@@ -1,0 +1,12 @@
+Day 32 – AWS EC2 Key Pairs
+
+What I learned:
+
+- SSH means Secure Shell.
+- AWS uses SSH key pairs instead of passwords.
+- A key pair has a Public Key and a Private Key.
+- The public key is stored on the EC2 server.
+- The private key (.pem) stays on my computer.
+- chmod 400 secures the private key.
+- Common SSH errors include permission denied and connection timed out.
+- Amazon Linux uses the username ec2-user.
