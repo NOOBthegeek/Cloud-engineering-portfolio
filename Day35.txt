@@ -1,0 +1,71 @@
+# Day 35 – Linux Process Management
+
+## Commands Learned
+
+```bash
+ps
+ps -ef
+ps -ef | grep ssh
+ps -ef | grep bash
+top
+kill PID
+kill -9 PID
+sudo killall httpd
+sleep 60 &
+jobs
+jobs -l
+fg
+```
+
+---
+
+## What I Learned
+
+- A process is a program or application that is currently running in Linux.
+- Every process is assigned a unique Process ID (PID).
+- The `ps` command displays processes running in the current terminal.
+- The `ps -ef` command lists all running processes on the system.
+- The `grep` command filters process output to find a specific process.
+- The `top` command provides a real-time view of running processes and system resource usage.
+- The `kill` command terminates a process gracefully.
+- The `kill -9` command forcefully terminates an unresponsive process.
+- Commands can be run in the background using `&`.
+- The `jobs` command displays background jobs started from the current terminal.
+- The `fg` command brings a background job back to the foreground.
+
+---
+
+## Key Concepts
+
+### Process
+A running instance of a program or application.
+
+### PID (Process ID)
+A unique identifier assigned to every running process.
+
+### Process Monitoring
+- `ps` – View running processes.
+- `ps -ef` – View all system processes.
+- `top` – Monitor processes and system performance in real time.
+
+### Process Management
+- `kill` – Gracefully stop a process.
+- `kill -9` – Forcefully stop a process.
+- `killall` – Stop all processes with the same name.
+
+### Background Jobs
+- `&` – Run a command in the background.
+- `jobs` – Display background jobs.
+- `fg` – Bring a background job back to the foreground.
+
+---
+
+## Skills Gained
+
+- Viewing Linux processes
+- Identifying processes using PID
+- Monitoring CPU and memory usage
+- Terminating processes safely
+- Running commands in the background
+- Managing background jobs
+- Troubleshooting Linux applications using process management tools
