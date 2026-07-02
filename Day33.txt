@@ -1,0 +1,59 @@
+# Day 33 – Linux Users, SSH Hardening & Secure Remote Administration
+
+## Commands Learned
+
+```bash
+whoami
+id
+who
+groups
+sudo systemctl status sshd
+sudo adduser developer
+sudo passwd developer
+sudo usermod -aG wheel developer
+groups developer
+```
+
+> **Ubuntu users:**
+>
+> ```bash
+> sudo usermod -aG sudo developer
+> ```
+
+---
+
+## What I Learned
+
+* Linux is a multi-user operating system where every process runs under a specific user account.
+* The **root** account has unrestricted administrative privileges and should be used carefully.
+* The `sudo` command allows regular users to execute administrative tasks without logging in as the root user.
+* Groups simplify permission management by assigning the same permissions to multiple users.
+* New users can be created, assigned passwords, and added to administrative groups.
+* SSH (Secure Shell) provides secure remote access to Linux servers.
+* SSH security is improved by using SSH keys, disabling root login, and restricting access to authorized users.
+
+---
+
+## Key Concepts
+
+* `whoami` displays the current logged-in user.
+* `id` shows the user's UID, GID, and group memberships.
+* `who` lists users currently logged into the system.
+* `groups` displays the groups a user belongs to.
+* `sudo` grants temporary administrative privileges.
+* `adduser` creates a new user account.
+* `passwd` sets or changes a user's password.
+* `usermod -aG` adds a user to an existing group.
+* `systemctl status sshd` checks the status of the SSH service.
+* SSH hardening helps protect cloud servers from unauthorized remote access.
+
+---
+
+## Skills Gained
+
+* Managing Linux users
+* Working with Linux groups
+* Using `sudo` safely
+* Creating and configuring user accounts
+* Understanding SSH security best practices
+* Performing basic Linux system administration
