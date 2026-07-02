@@ -1,0 +1,76 @@
+# Day 34 – Linux File Permissions & Ownership
+
+## Commands Learned
+
+```bash
+pwd
+mkdir day34-permissions
+cd day34-permissions
+touch notes.txt
+echo "Hello Cloud Engineering" > notes.txt
+cat notes.txt
+ls -l
+chmod +x notes.txt
+chmod -w notes.txt
+chmod 644 notes.txt
+chmod 755 notes.txt
+touch deploy.sh
+sudo chown ec2-user notes.txt
+sudo chown ec2-user:ec2-user notes.txt
+groups
+```
+
+---
+
+## What I Learned
+
+- Every file and directory in Linux has an owner, a group, and a set of permissions.
+- Linux permissions determine who can read, write, or execute a file.
+- The `ls -l` command displays detailed information about files, including permissions, owner, group, and file size.
+- The `chmod` command is used to modify file and directory permissions using either symbolic or numeric notation.
+- Numeric permissions are based on:
+  - Read (`r`) = 4
+  - Write (`w`) = 2
+  - Execute (`x`) = 1
+- Common permission values include:
+  - **644** – Owner can read and write; group and others can only read.
+  - **755** – Owner has full access; group and others can read and execute.
+- The `chown` command changes the owner of a file or directory.
+- Proper file permissions help secure Linux systems by preventing unauthorized access or modification.
+
+---
+
+## Key Concepts
+
+### File Ownership
+
+Every file has:
+- **Owner (User)** – The user who owns the file.
+- **Group** – Users who share access permissions.
+- **Others** – Everyone else on the system.
+
+### Permission Types
+
+- **r** – Read
+- **w** – Write
+- **x** – Execute
+
+### Common Linux Commands
+
+- `ls -l` – View file permissions and ownership.
+- `chmod` – Change file permissions.
+- `chown` – Change file owner.
+- `cat` – Display file contents.
+- `touch` – Create an empty file.
+- `echo` – Write text to a file.
+
+---
+
+## Skills Gained
+
+- Viewing Linux file permissions
+- Understanding symbolic and numeric permissions
+- Using `chmod` to modify permissions
+- Using `chown` to change file ownership
+- Creating and modifying files from the Linux terminal
+- Applying Linux security best practices through proper permission management
