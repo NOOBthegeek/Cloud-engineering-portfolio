@@ -1,0 +1,9 @@
+Day 37: Learned Linux file permissions and ownership
+
+- Viewed file permissions using ls -l
+- Understood read, write, and execute permissions
+- Changed permissions with chmod
+- Used numeric permission modes (644, 755, 600)
+- Created and executed a shell script
+- Viewed and changed file ownership with chown
+- Learned about users and groups in Linux
