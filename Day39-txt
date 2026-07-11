@@ -1,0 +1,11 @@
+Day 39: Learned Linux archiving and compression
+
+- Created TAR archives using tar
+- Viewed archive contents
+- Extracted TAR archives
+- Created compressed TAR.GZ archives
+- Compressed and decompressed files with gzip and gunzip
+- Created and extracted ZIP archives
+- Checked file sizes with ls -lh
+- Measured disk usage using du
+- Practiced Linux backup and compression techniques
