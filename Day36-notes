@@ -1,0 +1,10 @@
+Day 36: Learned Linux file and directory management
+
+- Created directories using mkdir
+- Navigated directories with cd and pwd
+- Created files using touch
+- Copied files and directories with cp
+- Moved and renamed files using mv
+- Deleted files with rm
+- Removed directories using rmdir and rm -r
+- Practiced essential Linux file management commands
