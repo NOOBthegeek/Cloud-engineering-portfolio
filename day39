@@ -1,0 +1,10 @@
+Day 38: Learned Linux text processing and file viewing
+
+- Viewed file contents using cat and less
+- Displayed beginning and end of files with head and tail
+- Searched text using grep
+- Counted lines, words, and characters using wc
+- Sorted text with sort
+- Removed duplicates using uniq
+- Redirected output using > and >>
+- Practiced working with text files and command output
