@@ -1,0 +1,233 @@
+# Day 40 - Linux Networking Fundamentals
+
+## Overview
+Today I learned the fundamentals of Linux networking. I explored how Linux manages network interfaces, IP addresses, routing, DNS resolution, and network connectivity. I also learned how to inspect active connections and verify whether remote services are reachable.
+
+---
+
+## Commands Learned
+
+### Display Network Interfaces
+```bash
+ip addr
+```
+
+Shortcut:
+
+```bash
+ip a
+```
+
+Displays:
+- Network interfaces
+- IPv4 and IPv6 addresses
+- MAC addresses
+
+---
+
+### Display Routing Table
+
+```bash
+ip route
+```
+
+Shows how the system routes network traffic.
+
+---
+
+### View Hostname Information
+
+```bash
+hostname
+```
+
+Detailed system information:
+
+```bash
+hostnamectl
+```
+
+---
+
+### Test Network Connectivity
+
+```bash
+ping 8.8.8.8
+```
+
+Tests connectivity using Google's public DNS server.
+
+```bash
+ping google.com
+```
+
+Tests connectivity while verifying DNS resolution.
+
+Stop ping with:
+
+```bash
+Ctrl + C
+```
+
+---
+
+### DNS Lookup
+
+```bash
+nslookup google.com
+```
+
+Alternative:
+
+```bash
+dig google.com
+```
+
+Used to resolve domain names into IP addresses.
+
+---
+
+### Display Listening Ports
+
+```bash
+ss -tuln
+```
+
+Shows services currently listening for network connections.
+
+---
+
+### Display Active Connections
+
+```bash
+ss -tunap
+```
+
+Displays active TCP/UDP connections and associated processes.
+
+---
+
+### Test a Remote Port
+
+```bash
+nc -zv google.com 443
+```
+
+Output:
+
+```
+Ncat: Connected to 172.217.xx.xxx:443.
+```
+
+This confirms:
+- DNS resolution works.
+- HTTPS port 443 is reachable.
+- The server has outbound internet access.
+
+---
+
+### Download Web Content
+
+```bash
+curl https://example.com
+```
+
+Retrieves webpage content directly from a server.
+
+---
+
+### View Network Interfaces
+
+```bash
+ip link
+```
+
+Displays available network devices and their status.
+
+---
+
+## Practical Skills Gained
+
+- Viewed IP configuration.
+- Inspected routing information.
+- Tested internet connectivity.
+- Verified DNS functionality.
+- Checked listening ports.
+- Viewed active network connections.
+- Tested HTTPS connectivity using Netcat.
+- Retrieved webpage content using curl.
+
+---
+
+## Key Concepts
+
+- Every Linux server communicates through one or more network interfaces.
+- IP addresses uniquely identify devices on a network.
+- DNS translates domain names into IP addresses.
+- The routing table determines where network traffic is sent.
+- Open ports indicate services waiting for incoming connections.
+- Netcat is useful for testing TCP connectivity.
+- curl is commonly used to interact with web servers and APIs.
+
+---
+
+## Commands Summary
+
+```bash
+hostnamectl
+ip addr
+ip route
+ping 8.8.8.8
+ping google.com
+nslookup google.com
+ss -tuln
+ss -tunap
+nc -zv google.com 443
+curl https://example.com
+ip link
+```
+
+---
+
+## Interview Questions
+
+### What command displays your IP address?
+
+```
+ip addr
+```
+
+### What is DNS?
+
+DNS (Domain Name System) converts domain names such as `google.com` into IP addresses that computers use for communication.
+
+### What does `ss -tuln` do?
+
+Displays all listening TCP and UDP ports on the system.
+
+### What is the purpose of `ip route`?
+
+Displays the routing table used by Linux to determine where network traffic should be sent.
+
+### What does `nc -zv google.com 443` do?
+
+Tests whether TCP port 443 on google.com is open and reachable without sending application data
+
+### Difference between `ping` and `curl`?
+
+- `ping` tests basic network connectivity.
+- `curl` retrieves data from web servers using protocols like HTTP and HTTPS.
+
+
+
+---
+
+## Today's Achievement
+
+Completed Linux Networking Fundamentals by learning how to:
+- Inspect network configuration.
+- Verify internet connectivity.
+- Check active and listening connections.
+- Test remote ports with Netcat.
+- Retrieve web content using curl.
+- Build essential troubleshooting skills used by Cloud Engineers and Linux System Administrators.
