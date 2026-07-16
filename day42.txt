@@ -1,0 +1,44 @@
+# Day 42 - Linux System Monitoring & Log Analysis
+
+## Commands Learned
+
+```bash
+uptime
+top
+htop
+free -h
+df -h
+du -sh /home/ec2-user
+journalctl
+journalctl -n 20
+journalctl -f
+journalctl -u sshd
+journalctl -b
+last
+```
+
+## Key Concepts
+
+- `uptime` shows how long the system has been running and the load average.
+- `top` displays running processes and real-time resource usage.
+- `free -h` shows RAM and swap usage.
+- `df -h` displays disk space usage.
+- `du -sh` reports the size of a directory.
+- `journalctl` is used to view and search system logs.
+- `journalctl -u sshd` displays SSH service logs.
+- `last` shows user login history.
+
+## Practical Skills
+
+- Checked CPU and memory utilization.
+- Monitored running processes.
+- Verified available disk space.
+- Measured directory sizes.
+- Viewed recent system logs.
+- Examined SSH service logs.
+- Reviewed login history.
+- Learned how logs help diagnose Linux and server issues.
+
+## Today's Achievement
+
+Built foundational Linux monitoring and troubleshooting skills by learning to inspect system performance, analyze logs, and investigate server activity.
