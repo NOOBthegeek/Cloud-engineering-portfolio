@@ -1,0 +1,30 @@
+# Day 41 - SSH & Secure Remote Administration
+
+## Commands Learned
+
+```bash
+ssh -V
+ls ~/.ssh
+ssh-keygen -t ed25519
+cat ~/.ssh/id_ed25519.pub
+cat ~/.ssh/known_hosts
+ssh user@server
+scp file.txt user@server:/path/
+```
+
+## Key Concepts
+
+- SSH provides encrypted remote access to servers.
+- SSH key pairs consist of a public key and a private key.
+- The public key is added to remote servers or services.
+- The private key must never be shared.
+- SCP securely transfers files over SSH.
+- The `known_hosts` file stores trusted server fingerprints.
+
+## Practical Skills
+
+- Checked the installed SSH version.
+- Viewed SSH keys.
+- Learned how to generate a new SSH key pair.
+- Learned how to connect securely to a Linux server.
+- Learned how to transfer files securely with SCP.
